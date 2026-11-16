@@ -1,0 +1,14 @@
+{
+  "selected_N": 640,
+  "converged": true,
+  "N_for_predictions": 640,
+  "limit_reached": false,
+  "fit_N": 100,
+  "parameters_refitted_per_N": false,
+  "checked_modes": "B single TOL, B single MEK, B corrected mixture and total",
+  "thresholds": {
+    "t10_change_pct_max": 1.0,
+    "rollup_peak_change_pct_max": 1.0,
+    "rollup_peak_time_change_min_max": 3.0
+  }
+}

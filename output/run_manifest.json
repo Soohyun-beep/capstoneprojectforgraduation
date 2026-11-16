@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETED",
+  "mode": "all",
+  "selected_grid_N": 640,
+  "grid_converged": true,
+  "input_caveat": "Inlet concentrations NOT independently measured; test-cycle leakage in binary inlet estimate",
+  "A_definition": "Fit using all cycles and evaluate those same cycles",
+  "B_definition": "Fit on early cycles only; compare with held-out late cycle, not fully independent due inlets",
+  "direct_IAST": "No mixed parameter correction; single parameters reused",
+  "calibrated_IAST": "Three empirical adjustment factors fit only on mixed training cycles",
+  "grid_note": "N is selected with parameters held fixed; final predictions at chosen N; parameters fitted at N_fit",
+  "species_units": "C/Cin, ppmv; qmax mol/kg; b Pa^-1; k min^-1"
+}
