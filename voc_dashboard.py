@@ -33,7 +33,7 @@ if not _streamlit_running():   # 셀/python으로 직접 실행하면 화면이 
 # =============================================================================
 # 0. 설정
 # =============================================================================
-st.set_page_config(page_title="활성탄 교체관리 대시보드", layout="wide", page_icon="🟢")
+st.set_page_config(page_title="말해VOC조_대시보드", layout="wide", page_icon="🟢")
 
 # 대기환경보전법 시행규칙 별표8 도장시설 THC 배출허용기준(ppm)
 LIMIT_OPTIONS = {
