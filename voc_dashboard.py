@@ -498,7 +498,7 @@ purge_peak = float(purge["total_outlet_ppmv"].max()) if len(purge) else 0.0
 # =============================================================================
 st.markdown(f"""
 <style>
-.block-container {{padding-top:1.4rem; max-width:1240px;}}
+.block-container {{padding-top:4.2rem; max-width:1240px;}}
 .card {{background:#fff; border:1px solid {C_LINEBG}; border-radius:14px; padding:16px 18px;
         box-shadow:0 1px 2px rgba(16,24,40,.04); height:100%;}}
 .k-label {{color:{C_SUB}; font-size:.8rem; font-weight:700; letter-spacing:.2px;}}
